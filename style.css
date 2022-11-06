@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Karla:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Karla:wght@800&display=swap');
+
+body{
+    font-family: 'Karla', sans-serif;
+    background-image: linear-gradient(120deg,#65ddd1,#24a0fc);
+    background-repeat: no-repeat;
+    color:white;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+#first-heading{
+    font-size: 1.8rem;
+    text-align: left;
+    margin: 0%;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#second-heading{
+    text-align: left;
+    margin: 0%;
+    margin-left: 20px;
+    color: #4ADF86;
+
+}
+
+p{
+    margin: 0%;
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+    color:white;
+    font-style: normal;
+    text-align: left;
+    
+}
+.main-container{
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+    width: 25rem;
+    height: 38rem;
+    background-color: #1F2937;
+}
+
+.readypassword{
+    width: 20.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1rem;
+    color: #4ADF86;
+    background: rgb(255, 255, 255,0.06);
+}
+
+#output{
+    color:#4ADF86 ;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+    
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    border-style: none;
+    width: 22.5rem;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1rem;
+    color: white;
+    background:#44c276;
+    font-size: large;
+
+}
+
+button:hover{
+    background:#3da567;
+
+}
+
+button:active{
+    background:#2f8451;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    background: rgb(255, 255, 255,0.06);
+}
+
+.container:hover{
+    background: rgb(255, 255, 255,0.04);
+
+}
+
+.settings{
+    margin-top: 60px;
+}
+
+#len::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+#len{
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    width: 2rem;
+    min-height: 100%;
+    color: white;
+    border: none;
+    background: rgb(255, 255, 255,0.00);
+}
+
+#upper,#lower,#number,#charetors{
+    cursor: pointer;
+
+}
+
+footer{
+    position: fixed;
+    text-align: right;
+    padding: 2rem;
+    bottom: 0;
+    right: 1rem;
+    width: 100%;
+    color: white; 
+}

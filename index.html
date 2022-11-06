@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon.png">
+    <title>Password Genaretor</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="topText-container">
+            <h1 id="first-heading">Generate a</h1>
+            <h1 id="second-heading">Random Password</h1>
+            <p id="sub-heading">Never use an insecure password again.</p>
+        </div>
+
+        <div class="readypassword" id="readypassword">
+            <p id="output">Password</p>
+        </div>
+
+        <div class="settings">
+            <div class="container" id="continer-length">
+                <label for="len">Length</label>
+                <input id="len" value ="20" type="number" min="5" max="30">
+            </div>
+
+            <div class="container">
+                <label for="upper">Contain Uppercase Letters</label>
+                <input id="upper" type="checkbox" checked>
+            </div>
+            
+            <div class="container">
+                <label for="lower">Contain Lowercase Letters</label>
+                <input id="lower" type="checkbox" checked>
+            </div>
+            
+            <div class="container">
+                <label for="number">Contain Numbers</label>
+                <input id="number" type="checkbox" checked>
+            </div>
+            
+            <div class="container">
+                <label for="charetors">Contain charetors</label>
+                <input id="charetors" type="checkbox" checked>
+            </div>
+        </div>
+    <button class="btn generate" id="generate" onclick="createPassword()">Generate Password</button>
+    </div>
+    <footer>Made By Gaju Masare</footer>
+    
+</body>
+</html>
